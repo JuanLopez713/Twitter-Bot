@@ -47,9 +47,9 @@ var T = new Twit({
 
 
 //POST TWEET
-//tweetIt();
+tweetIt();
 
-setInterval(tweetIt, 1000*45);
+//setInterval(tweetIt, 1000*45);
 
 function tweetIt() {
     //Find a random real number from 0 to 1 and multiply by 100, and then round down
