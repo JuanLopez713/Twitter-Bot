@@ -56,7 +56,7 @@ function tweetIt() {
     var r = Math.floor(Math.random() * 100);
 
     var tweet = {
-        status: 'Here is the current random number ' + r + '#providencehigh #phs #ecs #2017'
+        status: 'Here is the current random number ' + r + ' #providencehigh #phs #ecs #2017'
     }
 
     T.post('statuses/update', tweet, gotData);
